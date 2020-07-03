@@ -30,7 +30,7 @@ public class IntroActivity extends AppCompatActivity {
         }
     };
 
-    //github 과 연결하고 commit 하고 push 해보기..
+    //github 과 연결하고 commit 하고 push 해보기..xvdsfjslflfksf
 
 
 }
