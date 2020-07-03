@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".YoutubeActivity">
+
+
+    <!--로스트 치킨 이미지를 클릭하면 이 액티비티로 이동하여 유튜브 비디오 보여주기-->
+    <!--유튜브 -->
+    <fragment
+        android:id="@+id/youtube_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:layout_marginBottom="16dp"/>
+
+
+    <!--<com.google.android.youtube.player.YouTubeThumbnailView
+        android:id="@+id/thumnailview"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:scaleType="centerCrop"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@+id/youtube_fragment"
+        android:layout_marginBottom="16dp"/>-->
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/btn"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:backgroundTint="#DC3077"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_search_white_24dp"
+            android:onClick="clickBtn"/>
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="더 많은 레시피 검색하기"
+            android:inputType="text"
+            android:layout_marginLeft="8dp"
+            android:layout_toLeftOf="@+id/btn"
+            android:layout_centerInParent="true"/>
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:textColor="#333333"/>
+    </ScrollView>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+
+    android:orientation="vertical"
+    tools:context=".MyBlogActivity">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/FAB_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#DC3077"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/ic_photo_white_24dp"
+        android:onClick="clickFAB_photo"/>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_camera_white_24dp"
+        android:backgroundTint="#DC3077"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_above="@+id/FAB_1"
+        android:layout_marginBottom="70dp"
+        android:onClick="clickFAB_camera"/>
+
+
+</RelativeLayout>

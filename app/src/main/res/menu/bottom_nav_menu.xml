@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/home"
+        android:title="홈"
+        android:icon="@drawable/ic_home_black_24dp"/>
+    <item android:id="@+id/shopping"
+        android:title="블로그"
+        android:icon="@drawable/ic_person_white_24dp"/>
+    <item android:id="@+id/script"
+        android:title="스크랩"
+        android:icon="@drawable/ic_favorite_greyyy_24dp"/>
+    <item android:id="@+id/notification"
+        android:title="알림"
+        android:icon="@drawable/ic_notifications_none_black_24dp"/>
+    <item android:id="@+id/event"
+        android:title="이벤트"
+        android:icon="@drawable/ic_card_giftcard_black_24dp"/>
+
+
+
+</menu>

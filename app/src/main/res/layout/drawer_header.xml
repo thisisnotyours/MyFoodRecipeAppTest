@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#413D47"
+        android:padding="16dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/cat"
+            android:layout_marginLeft="16dp"
+            android:layout_gravity="center"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#8C8C8C"
+            android:clickable="true"
+            android:onClick="clickHeaderIcon"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="1dp"
+            android:layout_gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Moana Lang"
+                android:fontFamily="@font/gmarket_scans_medium"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="#ffffffff"
+                android:layout_marginLeft="10dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="팔로워 0, 팔로잉 0"
+                android:fontFamily="@font/gmarket_scans_light"
+                android:textSize="12sp"
+                android:textColor="#ffffffff"
+                android:layout_marginLeft="10dp"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="레시피 등록"
+                android:fontFamily="@font/gmarket_scans_light"
+                android:textColor="#DC3077"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="4dp"
+                android:background="@drawable/drawer_recipe"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="레시피"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            android:fontFamily="@font/gmarket_scans_medium"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="더보기"
+            android:fontFamily="@font/gmarket_scans_light"
+            android:layout_alignParentRight="true"
+            android:clickable="true"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawer_recipe2"
+            android:layout_weight="1"
+            android:text="내가 본 레시피"
+            android:fontFamily="@font/gmarket_scans_medium"/>   <!--버튼에 직접그린 그림 집어넣기(Drawable)-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawer_recipe2"
+            android:layout_weight="1"
+            android:text="스크랩"
+            android:fontFamily="@font/gmarket_scans_medium"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawer_recipe2"
+            android:text="요리후기"
+            android:fontFamily="@font/gmarket_scans_medium"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawer_recipe2"
+            android:text="노트"
+            android:fontFamily="@font/gmarket_scans_medium"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/gmarket_scans_medium"
+            android:text="쇼핑"
+            android:textColor="@android:color/black"
+            android:textSize="18dp"/>
+    </RelativeLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        android:weightSum="4">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawer_recipe2"
+            android:text="내가 본 상품"
+            android:fontFamily="@font/gmarket_scans_medium"
+            android:layout_weight="1"/>   <!--버튼에 직접그린 그림 집어넣기(Drawable)-->
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawer_recipe2"
+            android:text="구매내역"
+            android:fontFamily="@font/gmarket_scans_medium"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawer_recipe2"
+            android:text="장바구니"
+            android:fontFamily="@font/gmarket_scans_medium"
+            android:layout_weight="1"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/drawer_recipe2"
+            android:text="찜"
+            android:fontFamily="@font/gmarket_scans_medium"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+</LinearLayout>
+

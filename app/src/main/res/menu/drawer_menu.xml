@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+
+
+    <item
+        android:id="@+id/menu_remove_ad"
+        android:title="광고제거"
+        android:icon="@drawable/ic_remove_circle_outline_black_24dp"/>
+
+    <item
+        android:id="@+id/menu_inquiry"
+        android:title="문의하기"
+        android:icon="@drawable/ic_chat_bubble_outline_black_24dp"/>
+
+    <item
+        android:id="@+id/menu_evaluate_app"
+        android:title="앱 평가하기"
+        android:icon="@drawable/ic_star_border_black_24dp"/>
+
+    <item
+        android:id="@+id/menu_recommend_app"
+        android:title="앱 추천하기"
+        android:icon="@drawable/ic_favorite_border_black_24dp"/>
+
+    <item
+        android:id="@+id/menu_setting"
+        android:title="설정하기"
+        android:icon="@drawable/ic_settings_black_24dp"/>
+
+
+</menu>

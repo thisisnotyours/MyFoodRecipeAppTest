@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#DC3077</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+
+    <!--탭버튼 폰트-->
+    <style name="tab_font">  <!--parent 를 해야하나?? : 안해도됨-->
+        <item name="android:fontFamily">@font/gmarket_scans_medium</item>
+    </style>
+
+
+
+</resources>
